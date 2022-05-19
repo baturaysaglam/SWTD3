@@ -1,5 +1,5 @@
 # Parameter-Free Reduction of the Estimation Bias in Deep Reinforcement Learning for Continuous Control
-PyTorch implementation of the _Stochastic Weighted Twin Delayed Deep Deterministic Policy Gradient_ algorithm (SWTD3). The paper can be found [here](https://arxiv.org/abs/2109.11788v2).
+PyTorch implementation of the _Stochastic Weighted Twin Delayed Deep Deterministic Policy Gradient_ algorithm (SWTD3). The paper can be found [here](https://arxiv.org/abs/2109.11788v3).
 Note that the implementation of the TD3 algorithm is heavily based on the [author's Pytorch implementation of the TD3 algorithm](https://github.com/sfujim/TD3). 
 
 The algorithm is tested on [MuJoCo](https://gym.openai.com/envs/#mujoco) and [Box2D](https://gym.openai.com/envs/#box2d) continuous control tasks.
