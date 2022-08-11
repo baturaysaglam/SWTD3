@@ -1,6 +1,6 @@
-# Parameter-Free Reduction of the Estimation Bias in Deep Reinforcement Learning for Continuous Control
-PyTorch implementation of the _Stochastic Weighted Twin Delayed Deep Deterministic Policy Gradient_ algorithm (SWTD3). The paper can be found [here](https://arxiv.org/abs/2109.11788v3).
-Note that the implementation of the TD3 algorithm is heavily based on the [author's Pytorch implementation of the TD3 algorithm](https://github.com/sfujim/TD3). 
+# Parameter-free Reduction of the Estimation Bias in Deep Reinforcement Learning for Deterministic Policy Gradients
+PyTorch implementation of the _Stochastic Weighted Twin Delayed Deep Deterministic Policy Gradient_ algorithm (SWTD3). 
+Note that the implementation of the TD3 algorithm is heavily based on the [author's Pytorch implementation of the TD3 algorithm](https://github.com/sfujim/TD3). If you use our code or data, please cite the [paper](https://arxiv.org/abs/2109.11788).
 
 The algorithm is tested on [MuJoCo](https://gym.openai.com/envs/#mujoco) and [Box2D](https://gym.openai.com/envs/#box2d) continuous control tasks.
 
@@ -51,3 +51,17 @@ optional arguments:
   --save_model          Save model and optimizer parameters
   --load_model LOAD_MODEL Model load file name; if empty, does not load
   ```
+
+### Bibtex
+```
+@misc{https://doi.org/10.48550/arxiv.2109.11788,
+  doi = {10.48550/ARXIV.2109.11788},
+  url = {https://arxiv.org/abs/2109.11788},
+  author = {Saglam, Baturay and Mutlu, Furkan Burak and Cicek, Dogan Can and Kozat, Suleyman Serdar},
+  keywords = {Machine Learning (cs.LG), Artificial Intelligence (cs.AI), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Parameter-free Reduction of the Estimation Bias in Deep Reinforcement Learning for Deterministic Policy Gradients},
+  publisher = {arXiv},
+  year = {2021},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+```
